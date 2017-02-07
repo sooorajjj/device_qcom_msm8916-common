@@ -1,2 +1,2 @@
 BOARD_SEPOLICY_DIRS += \
-    $(VENDOR_PATH)/sepolicy
+    device/qcom/msm8916-common/sepolicy

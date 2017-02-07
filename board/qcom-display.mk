@@ -9,4 +9,9 @@ TARGET_CONTINUOUS_SPLASH_ENABLED := true
 TARGET_FORCE_HWC_FOR_VIRTUAL_DISPLAYS := true
 TARGET_USES_C2D_COMPOSITION := true
 TARGET_USES_ION := true
-USE_OPENGL_RENDERER := true
+
+# Only tilerender makeile check USE_OPENGL_RENDERER
+# we are not building libtilerender since jb/kk days 
+# dont know why its still here
+
+# USE_OPENGL_RENDERER := true
